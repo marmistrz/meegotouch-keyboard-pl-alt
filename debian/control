@@ -1,0 +1,12 @@
+Source: meegotouch-keyboard-pl-alt
+Section: user/system
+Priority: optional
+Maintainer: Marcin Mielniczuk <marmistrz.dev@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: meegotouch-keyboard-pl-alt
+Architecture: any
+Depends: meego-keyboard
+Description: Alternate Polish virtual keyboard for Harmattan
+Description-pl_PL: Alternatywna klawiatura wirtualna dla systemu Harmattan

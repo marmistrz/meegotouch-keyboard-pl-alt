@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE keyboard SYSTEM 'VirtualKeyboardLayout.dtd'>
+<keyboard title="Polski (alternatywny)" version="1.0" catalog="pl" language="pl">
+  <layout type="general">
+    <section id="main">
+      <row>
+        <key>
+          <binding label="q" extended_labels="1"/>
+          <binding shift="true" label="Q" extended_labels="1"/>
+        </key>
+        <key>
+          <binding label="w" extended_labels="2"/>
+          <binding shift="true" label="W" extended_labels="2"/>
+        </key>
+        <key>
+          <binding label="e" extended_labels="ę3"/>
+          <binding shift="true" label="E" extended_labels="Ę3"/>
+        </key>
+        <key>
+          <binding label="r" extended_labels="4"/>
+          <binding shift="true" label="R" extended_labels="4"/>
+        </key>
+        <key>
+          <binding label="t" extended_labels="5"/>
+          <binding shift="true" label="T" extended_labels="5"/>
+        </key>
+        <key>
+          <binding label="y" extended_labels="6"/>
+          <binding shift="true" label="Y" extended_labels="6"/>
+        </key>
+        <key>
+          <binding label="u" extended_labels="7"/>
+          <binding shift="true" label="U" extended_labels="7"/>
+        </key>
+        <key>
+          <binding label="i" extended_labels="8"/>
+          <binding shift="true" label="I" extended_labels="8"/>
+        </key>
+        <key>
+          <binding label="o" extended_labels="ó9"/>
+          <binding shift="true" label="O" extended_labels="Ó9"/>
+        </key>
+        <key>
+          <binding label="p" extended_labels="0"/>
+          <binding shift="true" label="P" extended_labels="0"/>
+        </key>
+      </row>
+
+      <row>
+        <spacer/>
+
+        <key>
+          <binding label="a" extended_labels="ą*"/>
+          <binding shift="true" label="A" extended_labels="Ą*"/>
+        </key>
+        <key>
+          <binding label="s" extended_labels="ś#"/>
+          <binding shift="true" label="S" extended_labels="Ś#"/>
+        </key>
+        <key>
+          <binding label="d" extended_labels="+"/>
+          <binding shift="true" label="D" extended_labels="+"/>
+        </key>
+        <key>
+          <binding label="f" extended_labels="-"/>
+          <binding shift="true" label="F" extended_labels="-"/>
+        </key>
+        <key>
+          <binding label="g" extended_labels="="/>
+          <binding shift="true" label="G" extended_labels="="/>
+        </key>
+        <key>
+          <binding label="h" extended_labels="("/>
+          <binding shift="true" label="H" extended_labels="("/>
+        </key>
+        <key>
+          <binding label="j" extended_labels=")"/>
+          <binding shift="true" label="J" extended_labels=")"/>
+        </key>
+        <key>
+          <binding label="k" extended_labels="!"/>
+          <binding shift="true" label="K" extended_labels="!"/>
+        </key>
+        <key>
+          <binding label="l" extended_labels="ł?"/>
+          <binding shift="true" label="L" extended_labels="Ł?"/>
+        </key>
+
+        <spacer/>
+      </row>
+
+      <row>
+        <key style="special" width="large">
+          <binding action="shift"/>
+        </key>
+
+        <spacer/>
+
+        <key>
+          <binding label="z" extended_labels="żź@"/>
+          <binding shift="true" label="Z" extended_labels="ŻŹ@"/>
+        </key>
+        <key>
+          <binding label="x" extended_labels="~"/>
+          <binding shift="true" label="X" extended_labels="~"/>
+        </key>
+        <key>
+          <binding label="c" extended_labels="ć/"/>
+          <binding shift="true" label="C" extended_labels="Ć/"/>
+        </key>
+        <key>
+          <binding label="v" extended_labels="\"/>
+          <binding shift="true" label="V" extended_labels="\"/>
+        </key>
+        <key>
+          <binding label="b" extended_labels="x"/>
+          <binding shift="true" label="B" extended_labels="x"/>
+        </key>
+        <key>
+          <binding label="n" extended_labels="ń;"/>
+          <binding shift="true" label="N" extended_labels="Ń;"/>
+        </key>
+        <key>
+          <binding label="m" extended_labels=":"/>
+          <binding shift="true" label="M" extended_labels=":"/>
+        </key>
+
+        <spacer/>
+
+        <key style="special" width="large">
+          <binding action="backspace"/>
+        </key>
+      </row>
+
+      <row>
+        <key style="special" width="x-large">
+          <binding action="sym" label="?123"/>
+        </key>
+
+        <spacer/>
+
+        <key id="emailUrlKey"><binding label=","/></key>
+        <key width="xx-large"><binding action="space"/></key>
+        <key><binding label="."/></key>
+
+        <spacer/>
+
+        <key style="special" width="x-large" id="actionKey">
+          <binding action="return"/>
+        </key>
+      </row>
+    </section>
+  </layout>
+
+  <import file="symbols_en.xml"/>
+</keyboard>
