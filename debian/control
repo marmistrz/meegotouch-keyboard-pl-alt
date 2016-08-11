@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7)
 Standards-Version: 3.9.1
 
 Package: meegotouch-keyboard-pl-alt
-Architecture: any
+Architecture: all
 Depends: meego-keyboard
 Description: Alternate Polish virtual keyboard for Harmattan
 Description-pl_PL: Alternatywna klawiatura wirtualna dla systemu Harmattan
